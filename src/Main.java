@@ -13,6 +13,7 @@ public class Main {
     private static final SessionFactory ourSessionFactory;
 
     static {
+        System.out.println("hey");
         try {
             Configuration configuration = new Configuration();
             configuration.configure();
