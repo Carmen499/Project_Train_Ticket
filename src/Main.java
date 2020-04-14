@@ -1,15 +1,9 @@
-import com.mysql.cj.xdevapi.SessionFactory;
-import entity.Customer;
-import javassist.compiler.SymbolTable;
-import org.hibernate.cfg.Configuration;
-import org.hibernate.query.Query;
-
-import java.sql.Time;
 import java.time.LocalTime;
 import java.util.Scanner;
 
 public class Main {
     static Scanner in = new Scanner(System.in);
+    static CRUD crud= new CRUD();
     public static void main(String[] args) {
         LocalTime lt= LocalTime.now();
       String fName=in.next();
@@ -19,7 +13,7 @@ public class Main {
       int age =in.nextInt();
        String Gender = in.next();
 
-        Customer a = new Customer(fName,lName,email,phoneNumber,age,Gender);
-        a.toString();
+        crud.createCustomer(fName,lName,email,phoneNumber,age,Gender);
+
     }
 }

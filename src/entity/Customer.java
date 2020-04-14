@@ -5,7 +5,7 @@ package entity;
 import javax.persistence.*;
 //Student Entity
 @Entity //This will let Java know that this is an entity that we are going to map to a database table.
-@Table(name = "employee") //This is for the actual name of the database table name we are mapping to the class.
+@Table(name = "Customer") //This is for the actual name of the database table name we are mapping to the class.
 public class Customer {
     //Database Mapping
     @Id //This will map the primary key
