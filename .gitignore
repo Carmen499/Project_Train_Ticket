@@ -10,3 +10,5 @@ out/production/Project_Train_Ticket/entity/Customer.class
 out/production/Project_Train_Ticket/hibernate.cfg.xml
 
 out/production/Project_Train_Ticket/Main.class
+
+*.xml

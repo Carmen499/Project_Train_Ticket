@@ -17,10 +17,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/resource" type="java-resource" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="14" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Hibernate 5.4.11-5.4.11" level="project" />
-<<<<<<< HEAD
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
@@ -29,48 +28,16 @@
         <JAVADOC />
         <SOURCES />
         <jarDirectory url="file://$MODULE_DIR$/../../MySQL/JARS/hibernate JAR" recursive="false" />
-=======
-=======
->>>>>>> parent of faa2b80... Merge branch 'Carmen' into Edward
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../SQL/mysqlhibernate/JARS/hibernate JAR" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-<<<<<<< HEAD
-        <jarDirectory url="file://$USER_HOME$/OneDrive/Hibernate/JARS/MySQL connector  Jar" recursive="false" />
->>>>>>> Stashed changes
-=======
-        <jarDirectory url="file://$MODULE_DIR$/../../SQL/mysqlhibernate/JARS/hibernate JAR" recursive="false" />
->>>>>>> parent of faa2b80... Merge branch 'Carmen' into Edward
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-<<<<<<< HEAD
-<<<<<<< Updated upstream
           <root url="file://$MODULE_DIR$/../../MySQL/JARS/MySQL connector  Jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
         <jarDirectory url="file://$MODULE_DIR$/../../MySQL/JARS/MySQL connector  Jar" recursive="false" />
-=======
-          <root url="file://$USER_HOME$/OneDrive/Hibernate/JARS/hibernate JAR" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://$USER_HOME$/OneDrive/Hibernate/JARS/hibernate JAR" recursive="false" />
->>>>>>> Stashed changes
-=======
-          <root url="file://$MODULE_DIR$/../../SQL/mysqlhibernate/JARS/MySQL connector  Jar" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/../../SQL/mysqlhibernate/JARS/MySQL connector  Jar" recursive="false" />
->>>>>>> parent of faa2b80... Merge branch 'Carmen' into Edward
       </library>
     </orderEntry>
   </component>
