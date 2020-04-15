@@ -13,10 +13,10 @@ public class Customer {
     @Column(name = "ID") //This is mapping the primary key to the id column in your database.
     private int id;
 
-    @Column(name = "first_name") //This will map the firstName field to the column named first_name in your student table.
+    @Column(name = "firstName") //This will map the firstName field to the column named first_name in your student table.
     private String firstName;
 
-    @Column(name = "last_name") //This will map the lastName field to the column named last_name in your student table.
+    @Column(name = "lastName") //This will map the lastName field to the column named last_name in your student table.
     private String lastName;
 
     @Column(name = "Email") //This will map the email field to the column named email in your student table.

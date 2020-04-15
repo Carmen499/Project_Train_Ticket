@@ -137,7 +137,21 @@ public class CRUD {
             System.out.println(a);
         }
     }
+    public void deleteRow(int id){
+        SessionFactory factory = new Configuration().configure("hibernate.cfg.xml")
+                .addAnnotatedClass(Customer.class)
+                .buildSessionFactory();
 
+        //create a session this is for hibernate
+        Session session = factory.getCurrentSession();
+        session.beginTransaction();
+
+        Customer Emp= session.get(Customer.class,id);
+        System.out.println("Delete employee: "+ Emp.getFirstName()+" "+Emp.getLastName());
+        session.delete(Emp);
+        session.getTransaction().commit();
+        factory.close();
+    }
 
 
 }

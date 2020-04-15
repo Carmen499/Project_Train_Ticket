@@ -14,6 +14,8 @@ public class Main {
        String Gender = in.next();
 
         crud.createCustomer(fName,lName,email,phoneNumber,age,Gender);
+        System.out.println("Did it");
+
 
     }
 }

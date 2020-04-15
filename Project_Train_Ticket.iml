@@ -17,27 +17,27 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/resource" type="java-resource" />
     </content>
-    <orderEntry type="jdk" jdkName="14" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Hibernate 5.4.11-5.4.11" level="project" />
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../MySQL/JARS/hibernate JAR" />
+          <root url="file://$USER_HOME$/Downloads/SQL/mysqlhibernate/JARS/hibernate JAR" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/../../MySQL/JARS/hibernate JAR" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/Downloads/SQL/mysqlhibernate/JARS/hibernate JAR" recursive="false" />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../MySQL/JARS/MySQL connector  Jar" />
+          <root url="file://$MODULE_DIR$/../../SQL/mysqlhibernate/JARS/MySQL connector  Jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/../../MySQL/JARS/MySQL connector  Jar" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../SQL/mysqlhibernate/JARS/MySQL connector  Jar" recursive="false" />
       </library>
     </orderEntry>
   </component>
