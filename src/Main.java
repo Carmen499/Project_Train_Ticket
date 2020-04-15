@@ -1,45 +1,25 @@
-import org.hibernate.HibernateException;
-import org.hibernate.Metamodel;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
+import com.mysql.cj.xdevapi.SessionFactory;
+import entity.Customer;
+import javassist.compiler.SymbolTable;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
 
-import javax.persistence.metamodel.EntityType;
+import java.sql.Time;
+import java.time.LocalTime;
+import java.util.Scanner;
 
 public class Main {
-    private static final SessionFactory ourSessionFactory;
+    static Scanner in = new Scanner(System.in);
+    public static void main(String[] args) {
+        LocalTime lt= LocalTime.now();
+      String fName=in.next();
+      String lName=in.next();
+      String email=in.next();
+      String phoneNumber=in.next();
+      int age =in.nextInt();
+       String Gender = in.next();
 
-    static {
-        try {
-            Configuration configuration = new Configuration();
-            configuration.configure();
-
-            ourSessionFactory = configuration.buildSessionFactory();
-        } catch (Throwable ex) {
-            throw new ExceptionInInitializerError(ex);
-        }
-    }
-
-    public static Session getSession() throws HibernateException {
-        return ourSessionFactory.openSession();
-    }
-
-    public static void main(final String[] args) throws Exception {
-        final Session session = getSession();
-        try {
-            System.out.println("querying all the managed entities...");
-            final Metamodel metamodel = session.getSessionFactory().getMetamodel();
-            for (EntityType<?> entityType : metamodel.getEntities()) {
-                final String entityName = entityType.getName();
-                final Query query = session.createQuery("from " + entityName);
-                System.out.println("executing: " + query.getQueryString());
-                for (Object o : query.list()) {
-                    System.out.println("  " + o);
-                }
-            }
-        } finally {
-            session.close();
-        }
+        Customer a = new Customer(fName,lName,email,phoneNumber,age,Gender);
+        a.toString();
     }
 }

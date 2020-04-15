@@ -15,9 +15,49 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/resource" type="java-resource" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="14" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< Updated upstream
     <orderEntry type="library" name="Hibernate 5.4.11-5.4.11" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../MySQL/JARS/hibernate JAR" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../MySQL/JARS/hibernate JAR" recursive="false" />
+=======
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/OneDrive/Hibernate/JARS/MySQL connector  Jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/OneDrive/Hibernate/JARS/MySQL connector  Jar" recursive="false" />
+>>>>>>> Stashed changes
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+<<<<<<< Updated upstream
+          <root url="file://$MODULE_DIR$/../../MySQL/JARS/MySQL connector  Jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../MySQL/JARS/MySQL connector  Jar" recursive="false" />
+=======
+          <root url="file://$USER_HOME$/OneDrive/Hibernate/JARS/hibernate JAR" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/OneDrive/Hibernate/JARS/hibernate JAR" recursive="false" />
+>>>>>>> Stashed changes
+      </library>
+    </orderEntry>
   </component>
 </module>
